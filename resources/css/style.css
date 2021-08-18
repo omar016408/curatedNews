@@ -208,7 +208,21 @@ p{
 .header-area .navbar .navbar-nav .nav-item {
 	margin-left: 30px;
 }
-
+.header-area .navbar .navbar-nav .nav-item a {
+	font-size: 17px;
+	font-weight: 600;
+	color: #777;
+	-webkit-transition: all 0.4s ease-out 0s;
+	-moz-transition: all 0.4s ease-out 0s;
+	-ms-transition: all 0.4s ease-out 0s;
+	-o-transition: all 0.4s ease-out 0s;
+	transition: all 0.4s ease-out 0s;
+	text-transform: uppercase;
+}
+.header-area .navbar .navbar-nav .nav-item.active a,
+.header-area .navbar .navbar-nav .nav-item:hover a {
+	color: #fe7865;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-area .navbar .navbar-nav .nav-item {
 		margin: 5px 0;
@@ -221,24 +235,6 @@ p{
 		text-align: center;
 	}
 }
-
-.header-area .navbar .navbar-nav .nav-item a {
-	font-size: 17px;
-	font-weight: 600;
-	color: #777;
-	-webkit-transition: all 0.4s ease-out 0s;
-	-moz-transition: all 0.4s ease-out 0s;
-	-ms-transition: all 0.4s ease-out 0s;
-	-o-transition: all 0.4s ease-out 0s;
-	transition: all 0.4s ease-out 0s;
-	text-transform: uppercase;
-}
-
-.header-area .navbar .navbar-nav .nav-item.active a,
-.header-area .navbar .navbar-nav .nav-item:hover a {
-	color: #fe7865;
-}
-
 @media only screen and (max-width: 576px) {
 	.header-area .navbar .navbar-brand .logo-curated {
 		width: 234px;
@@ -326,7 +322,11 @@ p{
 	margin: 0 4px;
 }
 
-
+@media (max-width:576px){
+	#News_platform{
+		padding-top:122px;
+	}
+}
 /*===========================
     END CURATED NEWS CSS 
 ===========================*/
