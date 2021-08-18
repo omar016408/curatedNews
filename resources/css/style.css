@@ -696,6 +696,7 @@ p{
   .client_section .carousel_btn-box .carousel-control-next {
 	right: 25px;
   }
+
   @media (max-width: 767px){
 	.client_section #carouselExample2Controls{
 		border-left:none;
@@ -712,6 +713,23 @@ p{
     transform: none;
 	text-align: center;
 }
+  }
+  @media (max-width:576px){
+	.client_section .heading_container h2::before {
+      width:17%;
+	  height: 8px;
+  }
+  .client_section .heading_container h2::after {
+	width:17%;
+	height: 8px;
+}
+  }
+  @media (max-width:350px){
+	.client_section .heading_container h2::before,
+	.client_section .heading_container h2::after{
+		display: none !important;
+	}
+
   }
 
 /*===========================
