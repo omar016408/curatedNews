@@ -135,8 +135,16 @@ p{
 }
 
 .header-area .navbar .navbar-brand .logo-curated {
-	width: 300px;
+	width: 70px;
 	max-width: 100%;
+	float: left;
+}
+.header-area .navbar .navbar-brand .logo_text{
+	float: left;
+	color: #fff;
+	margin-top: 30px;
+	font-size: 20px;
+	font-family:changa;
 }
 
 .header-area .navbar .nav-item a {
@@ -236,9 +244,6 @@ p{
 	}
 }
 @media only screen and (max-width: 576px) {
-	.header-area .navbar .navbar-brand .logo-curated {
-		width: 234px;
-	}
 	.header-area .navbar .navbar-nav .nav-item a {
 		font-size: 15px !important;
 	}
@@ -251,9 +256,6 @@ p{
 	.header-area .navbar .navbar-toggler .bar-icon {
 		width: 20px;
 	}
-	.header-area .navbar .navbar-brand .logo-curated {
-		width: 140px;
-	}
 	.header-area .navbar .navbar-nav .nav-item {
 		margin: 5px 0 !important;
 	}
@@ -262,11 +264,6 @@ p{
 	}
 }
 
-@media only screen and (max-width: 210px) {
-	.header-area .navbar .navbar-brand .logo-curated {
-		width: 88px;
-	}
-}
 
 
 /*===========================
@@ -510,8 +507,8 @@ p{
 	padding: 40px 0;
 }
 #thecuratedflow .thecuratedflow_img_area img{
-	width: 350px;
-	margin: auto;
+	width: 500px;
+	max-width: 100%;
 }
 /*===========================
    thecuratedflow  CSS 
